@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 app.use(express.static("client/build"));
 // Add routes, both API and view
 app.use(routes);
+// the walk through for deploying to heroku had this line so adding it 
+//Set up promises with mongoose 
+mongoose.Promise = global.Promise;
 
 // Connect to the Mongo DB
 mongoose.connect(
