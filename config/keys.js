@@ -1,2 +1,4 @@
 module.exports =
-  "mongodb://coloradoz99:midnight1@ds111798.mlab.com:11798/react-booklist";
+  "mongodb+srv://coloradoz99:midnight1@react-booklist.el1ih.mongodb.net/react-booklist?retryWrites=true&w=majority"
+
+  
